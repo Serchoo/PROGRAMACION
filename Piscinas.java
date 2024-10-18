@@ -20,7 +20,7 @@ public class Piscinas{
 
         int area2 = ancho2 * largo2;
 
-        System.out.println("El área de la segunda piscina es: " + area2 + "m²");
+        System.out.println("El área de la segunda piscina es: " + area2 + "m²\n");
 
         //Apartado 2
         int volumen1 = area1 * profundidad1;
@@ -29,25 +29,25 @@ public class Piscinas{
 
         int volumen2 = area2 * profundidad2;
 
-        System.out.println("El volumen de la segunda piscina es: " + volumen2 + " Litros");
+        System.out.println("El volumen de la segunda piscina es: " + volumen2 + " Litros\n");
         
 
         //Apartado 3
         int largoTotal = largo1;
         int anchoTotal = ancho1 + ancho2;
 
-        System.out.println("El ancho y el largo de ambas piscinas juntas es: " + largoTotal + "m de largo y " + anchoTotal + "m de ancho");
+        System.out.println("El ancho y el largo de ambas piscinas juntas es: " + largoTotal + "m de largo y " + anchoTotal + "m de ancho\n");
 
         // Apartado 4
         int areaTotal = anchoTotal * largo1;
 
-        System.out.println("El área de ambas piscinas es de: " + areaTotal + " Litros");
+        System.out.println("El área de ambas piscinas es de: " + areaTotal + " Litros\n");
 
         //Apartado 5
 
         int volumenTotal = areaTotal * profundidad1;
         
-        System.out.println("El volumen de ambas piscinas es de: " + volumenTotal + " Litros");
+        System.out.println("El volumen de ambas piscinas es de: " + volumenTotal + " Litros\n");
 
         //Apartado 6
         int aux = profundidad1;
@@ -60,6 +60,6 @@ public class Piscinas{
 
         volumen2 = area2 * profundidad2;
         
-        System.out.println("El nuevo volumen de la segunda piscina es: " + volumen2 + " Litros");
+        System.out.println("El nuevo volumen de la segunda piscina es: " + volumen2 + " Litros\n");
     }
 }
